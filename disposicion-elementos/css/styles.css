@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.contenedor-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.img-flex {
+  width: 300px;
+}
+
+.img-flex:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
