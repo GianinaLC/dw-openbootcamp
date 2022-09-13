@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #161717;
+  color: white;
+  font-family: "Dosis", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+  max-width: 400px;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: rgba(128, 123, 123, 0.178);
+  box-shadow: 2px 2px 15px 5px rgba(153, 135, 135, 0.432);
+}
+
+.botones-redes {
+  display: flex;
+  gap: 10px;
+}
+
+.google-btn {
+  background-color: #1a73e8;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 2px 5px;
+  gap: 10px;
+  border: none;
+}
+
+.google-btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.google-btn picture {
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitter-btn {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 2px 5px;
+  border: none;
+}
+
+.twitter-btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.twitter-btn picture {
+  width: 20px;
+  height: 36px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.separador {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+.separador hr {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+form input {
+  background-color: #212121;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  outline: none;
+  color: white;
+}
+
+form input:hover {
+  background-color: #454045;
+}
+
+form input:focus {
+  background-color: #454045;
+  outline: solid 2px #212121;
+}
+
+.seccion-usuario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.seccion-label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cuenta-btn {
+  padding: 10px;
+  color: white;
+  background-color: #ea4c89;
+  border: none;
+  border-radius: 5px;
+}
+
+.check-div {
+  display: flex;
+  gap: 10px;
+}
+
+.check-div [type="checkbox"]:hover {
+  cursor: pointer;
+}
+
+.cuenta-btn:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
