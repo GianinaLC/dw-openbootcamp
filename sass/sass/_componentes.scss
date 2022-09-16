@@ -1,0 +1,19 @@
+@use "mixins";
+
+.btn {
+  background-color: black;
+  color: mixins.$btn-color;
+  padding: 10px;
+  border: none;
+  box-shadow: 2px 1px 5px #d35a5ac5;
+  &:hover {
+    background-color: mixins.$btn-color;
+    color: black;
+  }
+}
+
+.btn-2 {
+  @extend .btn;
+  border-radius: 15px;
+  background-color: aqua;
+}

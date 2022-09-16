@@ -1,0 +1,15 @@
+//dentro de poco va a quedar obsoleto lo que son los import, se usará @use
+/* @import "./sass/mixins";
+
+@import "./sass/estilos";
+
+@import "./sass/componentes"; */
+
+@use "./sass/mixins";
+//namespaces -> ejemplo $color -> mixins.$color
+
+@use "./sass/estilos";
+
+@use "./sass/componentes";
+//@use "./sass/componentes" as comp; --> comp.$color
+//namespaces -> ejemplo $color -> componentes.$color
