@@ -1,0 +1,9 @@
+@use "mixins";
+
+h1 {
+  @include mixins.formato-texto(burlywood);
+}
+
+p {
+  @include mixins.formato-texto(blue);
+}

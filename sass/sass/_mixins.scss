@@ -1,0 +1,10 @@
+/* mixin para reutilizar  */
+@mixin formato-texto($bg-color) {
+  color: $text-color;
+  width: 50rem;
+  background-color: $bg-color;
+  padding: 5rem;
+}
+/* variables */
+$text-color: #c74f4f;
+$btn-color: rgb(155, 115, 115);

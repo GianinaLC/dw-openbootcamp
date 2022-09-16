@@ -1,0 +1,40 @@
+/* mixin para reutilizar  */
+/* variables */
+h1 {
+  color: #c74f4f;
+  width: 50rem;
+  background-color: burlywood;
+  padding: 5rem;
+}
+
+p {
+  color: #c74f4f;
+  width: 50rem;
+  background-color: blue;
+  padding: 5rem;
+}
+
+.btn, .btn-2 {
+  background-color: black;
+  color: rgb(155, 115, 115);
+  padding: 10px;
+  border: none;
+  box-shadow: 2px 1px 5px rgba(211, 90, 90, 0.7725490196);
+}
+.btn:hover, .btn-2:hover {
+  background-color: rgb(155, 115, 115);
+  color: black;
+}
+
+.btn-2 {
+  border-radius: 15px;
+  background-color: aqua;
+}
+
+/* @import "./sass/mixins";
+
+@import "./sass/estilos";
+
+@import "./sass/componentes"; */
+
+/*# sourceMappingURL=styles.css.map */
